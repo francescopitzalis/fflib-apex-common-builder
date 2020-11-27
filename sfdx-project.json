@@ -5,13 +5,23 @@
             "default": true,
             "package": "fflib-apex-common-builder",
             "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT"
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "fflib-apex-mocks@0.1.0-1"
+                },
+                {
+                    "package": "fflib-apex-common@0.1.0-1"
+                }
+            ]
         }
     ],
     "namespace": "",
     "sfdcLoginUrl": "https://login.salesforce.com",
     "sourceApiVersion": "47.0",
     "packageAliases": {
-        "fflib-apex-common-builder": "0Ho4V000000XZEeSAO"
+        "fflib-apex-common-builder": "0Ho4V000000XZEeSAO",
+        "fflib-apex-mocks@0.1.0-1": "04t4V000001qUjhQAE",
+        "fflib-apex-common@0.1.0-1": "04t4V000001qUjrQAE"
     }
 }
